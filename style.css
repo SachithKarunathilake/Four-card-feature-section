@@ -48,7 +48,7 @@ main p{
     border-radius:7px;
     margin:25px auto 0 auto;
     padding:25px;
-    /* background-color: hsl(0, 0%, 98%); */
+    background-color: #fff;
     box-shadow: rgba(6, 63, 120, 0.197)0px 8px 24px;
     position: relative;
     overflow: hidden;
