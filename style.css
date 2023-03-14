@@ -14,7 +14,7 @@ body{
 
 main{
     width:85%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 
 span{
@@ -25,7 +25,7 @@ main h1{
     font-size: 25px;
     font-weight: 600;
     color:hsl(234, 12%, 34%);
-    margin:60px 0 20px 0;
+    margin:30px 0 20px 0;
     text-align: center;
 }
 
@@ -44,7 +44,6 @@ main p{
 .cards{ 
     height:224px;
     max-width: 352px;
-    /* min-width: 280px; */
     border-radius:7px;
     margin:25px auto 0 auto;
     padding:25px;
@@ -54,7 +53,7 @@ main p{
     overflow: hidden;
 }
 
-/* ?----------------The colorline------------------------- */
+/* *----------------The colorline------------------------- */
 .cards h2::before{
     content:" ";
     height:4px;
@@ -74,7 +73,7 @@ main p{
 .calculator h2::before{
     background-color: hsl(212, 86%, 64%);
 }
-/*? ---------------------------------------------------- */
+/** ---------------------------------------------------- */
 
 .cards h2{
     font-size:22px;
@@ -104,15 +103,19 @@ main p{
 @media(min-width:860px){
     main{
         max-width: 800px;
+        margin:0 auto;
     }
-
     main h1{
-        font-size: 33px;
-        margin:30px 0 20px 0;
+        font-size: 35px;
     }
-
     main p{
         font-size:16px;
+    }
+    .cards h2{
+        font-size:18px;
+    }
+    .cards p{
+        font-size:13px;
     }
     .coupled-group{
         float:right;
@@ -130,12 +133,15 @@ main p{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin:40px 0 0 0;
+        margin:30px 0 0 0;
     }
-
     .cards{
         margin:25px 12.5px 0 12.5px;
-        height:216px;
+        height:225px;
+        width:310px;
+    }
+    main h1{
+        margin:20px 0;
     }
 }
 
